@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "menu-items": [
+    {
+      "name": "City Bikes",
+      "url": "/fahrrad/citybikes",
+      "children": [
+        {
+          "name": "Women's City Bikes",
+          "url": "/fahrrad/citybikes/damen"
+        },
+        {
+          "name": "Men's City Bikes",
+          "url": "/fahrrad/citybikes/herren",
+          "children": [
+            {
+              "name": "E-bikes racing bike",
+              "url": "/fahrrad/citybikes/ebike-racing-bike"
+            },
+            {
+              "name": "Men's City Bikes",
+              "url": "/fahrrad/citybikes/herren"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trekking Bikes",
+      "url": "/fahrrad/trekkingbikes",
+      "children": [
+        {
+          "name": "Women's Trekking Bikes",
+          "url": "/fahrrad/trekkingbikes/damen"
+        },
+        {
+          "name": "Men's Trekking Bikes",
+          "url": "/fahrrad/trekkingbikes/herren"
+        }
+      ]
+    },
+    {
+      "name": "Mountain Bikes",
+      "url": "/fahrrad/mountainbikes",
+      "children": [
+        {
+          "name": "Women's Mountain Bikes",
+          "url": "/fahrrad/mountainbikes/damen"
+        },
+        {
+          "name": "Men's Mountain Bikes",
+          "url": "/fahrrad/mountainbikes/herren"
+        }
+      ]
+    }
+  ]
 }
